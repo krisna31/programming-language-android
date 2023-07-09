@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="25dp"
     android:gravity="center"
-    android:background="@color/material_dynamic_neutral_variant50"
+    android:background="@color/Gray"
     tools:context=".ProfileActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -22,7 +22,6 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:textColor="@color/white"
         android:layout_marginBottom="20dp"
         android:text="@string/jelvin_krisna_putra"
         />
@@ -32,7 +31,6 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="25sp"
-        android:textColor="@color/white"
         android:text="krisnaaaputraaa@gmail.com"
         />
 
