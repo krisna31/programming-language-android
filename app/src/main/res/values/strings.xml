@@ -34,12 +34,12 @@
     <integer-array name="data_photo">
         <item>@drawable/python</item>
         <item>@drawable/js</item>
-        <item>@drawable/Java</item>
+        <item>@drawable/java</item>
         <item>@drawable/cplusplus</item>
-        <item>@drawable/Ruby</item>
-        <item>@drawable/Swift</item>
+        <item>@drawable/ruby</item>
+        <item>@drawable/swift</item>
         <item>@drawable/golang</item>
-        <item>@drawable/Rust</item>
+        <item>@drawable/rust</item>
         <item>@drawable/js</item>
         <item>@drawable/kotlin</item>
         <item>@drawable/ts</item>
