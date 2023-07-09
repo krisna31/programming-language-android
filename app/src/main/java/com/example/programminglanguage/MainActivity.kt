@@ -2,6 +2,7 @@ package com.example.programminglanguage
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -20,6 +21,10 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
     }
 
+    private fun showSelectedLang(hero: Lang) {
+        Toast.makeText(this, "Kamu memilih " + hero.name, Toast.LENGTH_SHORT).show()
+    }
+
     private fun getListLangs(): ArrayList<Lang> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
@@ -34,7 +39,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvLang.layoutManager = LinearLayoutManager(this)
-        val listHeroAdapter = ListLangAdapter(list)
-        rvLang.adapter = listHeroAdapter
+        val listLangAdapter = ListLangAdapter(list)
+        rvLang.adapter = listLangAdapter
+
+        listLangAdapter.setOnItemClickCallback(object : ListLangAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Lang) {
+                showSelectedLang(data)
+            }
+        })
     }
 }
