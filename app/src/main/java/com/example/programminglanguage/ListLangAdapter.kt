@@ -36,11 +36,23 @@ class ListLangAdapter(private val listLang: ArrayList<Lang>) : RecyclerView.Adap
         val (name, description, photo) = listLang[position]
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
-        holder.tvDescription.text = description
+        holder.tvDescription.text = addEllipsisAfterWords(description)
         holder.itemView.setOnClickListener {
             val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
             intentDetail.putExtra(DetailActivity.KEY_LANG, listLang[holder.adapterPosition])
             holder.itemView.context.startActivity(intentDetail)
         }
     }
+
+    fun addEllipsisAfterWords(text: String, maxWords: Int = 20): String {
+        val words = text.split(" ")
+        return if (words.size > maxWords) {
+            val slicedWords = words.subList(0, maxWords)
+            val shortenedText = slicedWords.joinToString(" ")
+            "$shortenedText..."
+        } else {
+            text
+        }
+    }
+
 }
