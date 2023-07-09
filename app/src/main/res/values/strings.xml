@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Programming Language</string>
+
+    <string name="lang_name">Nama Bahasa Pemrograman</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>Ruby</item>
+        <item>Swift</item>
+        <item>Go</item>
+        <item>Rust</item>
+        <item>PHP</item>
+        <item>Kotlin</item>
+        <item>TypeScript</item>
+        <item>R</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Python is a versatile, high-level programming language known for its simplicity and readability. It emphasizes code readability and allows programmers to express concepts in fewer lines of code. </item>
+        <item>JavaScript is a popular programming language used for front-end and back-end web development. It enables interactive elements on websites and allows developers to build dynamic web applications.</item>
+        <item>Java is a widely adopted object-oriented programming language known for its platform independence. It is used for building a variety of applications, from mobile apps to enterprise-level systems.</item>
+        <item>C++ is a powerful programming language widely used for system-level programming, game development, and performance-critical applications. It supports both procedural and object-oriented programming paradigms.</item>
+        <item>Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity. It focuses on developer happiness and follows the principle of "Convention over Configuration.".</item>
+        <item>Swift is a modern, open-source programming language developed by Apple. It is designed for building applications for iOS, macOS, watchOS, and tvOS. Swift aims for simplicity, safety, and performance.</item>
+        <item>Go, also known as Golang, is a statically typed programming language developed by Google. It offers high-performance execution, efficient concurrency, and built-in support for concurrent programming patterns.</item>
+        <item>Rust is a systems programming language focused on safety, speed, and concurrency. It provides memory safety and prevents many common programming errors, making it suitable for low-level development.</item>
+        <item>PHP is a widely used server-side scripting language designed for web development. It powers millions of websites and offers features for dynamically generating web pages and interacting with databases.</item>
+        <item>Kotlin is a statically typed programming language developed by JetBrains. It is interoperable with Java and can be used for building Android apps, server-side applications, and more.</item>
+        <item>TypeScript is a typed superset of JavaScript that compiles to plain JavaScript code. It adds static typing, enhanced tooling, and better maintainability to JavaScript projects, especially for larger codebases.</item>
+        <item>R is a programming language and environment specifically designed for statistical computing and graphics. It provides a wide range of statistical and graphical techniques and is extensively used in data analysis and research.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/python</item>
+        <item>@drawable/js</item>
+        <item>@drawable/Java</item>
+        <item>@drawable/cplusplus</item>
+        <item>@drawable/Ruby</item>
+        <item>@drawable/Swift</item>
+        <item>@drawable/golang</item>
+        <item>@drawable/Rust</item>
+        <item>@drawable/js</item>
+        <item>@drawable/kotlin</item>
+        <item>@drawable/ts</item>
+        <item>@drawable/r</item>
+    </integer-array>
+</resources>
