@@ -39,9 +39,11 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+        val dataYear = resources.getStringArray(R.array.data_tahun_rilis)
+        val dataCreator = resources.getStringArray(R.array.data_creator)
         val listLang = ArrayList<Lang>()
         for (i in dataName.indices) {
-            val hero = Lang(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
+            val hero = Lang(dataName[i], dataDescription[i], dataPhoto.getResourceId(i, -1), dataYear[i], dataCreator[i])
             listLang.add(hero)
         }
         return listLang

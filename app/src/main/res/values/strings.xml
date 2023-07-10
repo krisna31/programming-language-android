@@ -45,6 +45,34 @@
         <item>@drawable/ts</item>
         <item>@drawable/r</item>
     </integer-array>
+    <string-array name="data_tahun_rilis">
+        <item>1991</item>
+        <item>1995</item>
+        <item>1995</item>
+        <item>1983</item>
+        <item>1995</item>
+        <item>2014</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>1995</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>1993</item>
+    </string-array>
+    <string-array name="data_creator">
+        <item>Guido van Rossum</item>
+        <item>Brendan Eich</item>
+        <item>James Gosling</item>
+        <item>Bjarne Stroustrup</item>
+        <item>Yukihiro Matsumoto</item>
+        <item>Chris Lattner</item>
+        <item>Robert Griesemer, Rob Pike, Ken Thompson</item>
+        <item>Graydon Hoare</item>
+        <item>Rasmus Lerdorf</item>
+        <item>JetBrains</item>
+        <item>Microsoft</item>
+        <item>Ross Ihaka, Robert Gentleman</item>
+    </string-array>
     <string name="title_activity_detail">DetailActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -139,4 +167,6 @@
     <string name="short_description_of_the_programming_language">Short Description of the Programming Language</string>
     <string name="programming_language_title">Programming Language Title</string>
     <string name="jelvin_krisna_putra">Jelvin Krisna Putra</string>
+    <string name="first_released_1999">first released : 1999</string>
+    <string name="created_by_people_name">Created By : People Name</string>
 </resources>

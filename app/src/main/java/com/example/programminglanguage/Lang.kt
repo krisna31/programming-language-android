@@ -7,5 +7,7 @@ import kotlinx.parcelize.Parcelize
 data class Lang(
     val name: String,
     val description: String,
-    val photo: Int
+    val photo: Int,
+    val year: String,
+    val creator: String,
 ) : Parcelable

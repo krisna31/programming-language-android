@@ -35,6 +35,22 @@
             android:textSize="16sp"
             android:padding="16dp" />
 
+        <TextView
+            android:id="@+id/tvDibuatTahun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_released_1999"
+            android:textSize="16sp"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/tvPembuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/created_by_people_name"
+            android:textSize="16sp"
+            android:padding="16dp" />
+
     </LinearLayout>
 
 </ScrollView>
